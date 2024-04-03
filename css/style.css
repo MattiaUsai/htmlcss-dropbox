@@ -78,7 +78,8 @@
 .items-container>.items{
     height: 50px;
     width: 100px;
-    background-color: beige;
+    background-color: rgb(59, 57, 57);
+
     margin: 0 10px ;
 }
 /* INIZIO JUMBOTRON  */
@@ -89,7 +90,8 @@
     margin-bottom: 20px;
 }
 .jumbotron-content{
-    background-color: blueviolet;
+    background-color: rgb(59, 57, 57);
+
 }
 
 /* INIZIO SUBSCRIPTION */
@@ -111,10 +113,8 @@
     background-color: rgb(59, 57, 57);
 }
 /* INIZIO FUNZIONI DROPOX */
-.content-function{
-    
+.content-function{  
     width: 100%;
-
 }
 .function-title{
     height: 100px;
@@ -128,7 +128,7 @@
 }
 .function-section{
    height: 400px;
-   width: calc(100%/3 );
+
    border: 2px solid white;
    background-color: rgb(59, 57, 57);
 }
@@ -138,7 +138,34 @@
    background-color: rgb(59, 57, 57);
    margin: 50px 0; 
 }
-
+/* INIZIO QUADRATI CON LOGO */
+ .square-sections{
+    display: flex;
+ }
+.large-square{
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+    border: 2px solid white;
+    background-color: rgb(59, 57, 57);
+ }
+ .mark-square{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .small-square{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(59, 57, 57);
+    border: 2px solid white; 
+ }
+ .invite-brand{
+    width: 100vw;
+    background-color: gray;
+ }
+ .content-invite-brand{
+    background-color: rgb(59, 57, 57);
+    height: 300px;
+ }
 
 
 
