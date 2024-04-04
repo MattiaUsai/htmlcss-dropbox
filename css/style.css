@@ -126,21 +126,109 @@ img{
 }
 
 .content-subscription{
-    height: 600px;
+    
     margin: 10px;
-    background-color: rgb(59, 57, 57);
+    border: 1px solid black;
+   
+
+}
+.sub-cont{
+    padding: 30px;
+    position: relative;
 }
 .content-subscription-bottom{
-    height: 100px;
     margin: 10px;
-    background-color: rgb(59, 57, 57);
+    border: 1px solid black;
 }
+.content-subscription>h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.sub-cont>h3{
+    margin: 10px 0;
+    font-size: xx-large;
+}
+.sub-cont>.price{
+    font-weight: bold;
+    line-height: 2;
+}
+.sub-cont>.info{
+    margin-bottom:  40px  ;
+    display: block;
+    color: grey;
+
+}
+.sub-cont>p{
+    margin: 20px 0;
+}
+.sub-cont>button{
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(38, 38, 248);
+    border: none;
+    color: white;
+    margin: 30px 0 20px 0;
+}
+.sub-cont>h5{
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+}
+.sub-cont>hr{
+    width: 20%;
+}
+.sub-cont>.bt-sub-bottom{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20%;
+}
+.sub-cont>.p-sub-bot{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* INIZIO INVITO A UNIRSI A DROPOX */
 .content-invite {
-    height: 400px;
     margin: 10px;
-    background-color: rgb(59, 57, 57);
 }
+
+
 /* INIZIO FUNZIONI DROPOX */
 .content-function{  
     width: 100%;
@@ -249,4 +337,7 @@ footer{
 }
 .bg-gray{
     background-color: gray;
+}
+.green{
+    color: green;
 }
