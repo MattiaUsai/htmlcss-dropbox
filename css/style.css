@@ -55,6 +55,9 @@ h2 {
 .height-500{
     height: 500px;
 }
+.pg-20{
+    padding: 20px;
+}
 
 .left{
   justify-content: flex-start;
@@ -225,8 +228,30 @@ img{
 
 /* INIZIO INVITO A UNIRSI A DROPOX */
 .content-invite {
-    margin: 10px;
+    margin:  100px 10px;
+    
 }
+.content-invite.text-section{
+    padding: 20px;
+}
+.content-invite>h3{
+    font-size: xx-large;
+    margin-top: 40px ;
+}
+.content-invite>p{
+    font-size: large;
+    margin: 10px 0;
+}
+.content-invite>button{
+    width: 50%;
+    padding: 10px;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+}
+
+
+
 
 
 /* INIZIO FUNZIONI DROPOX */
@@ -234,36 +259,53 @@ img{
     width: 100%;
 }
 .function-title{
-    height: 100px;
+   
     width: 100%;
-   background-color: rgb(59, 57, 57);
-   margin: 50px 0; 
+ 
+   margin: 50px 0 40px 0; 
+   font-size: 40px;
 }
 .function-sections{
     display: flex;
     flex-wrap: wrap;
 }
 .function-section{
-   height: 400px;
+    padding: 10px;
+}
+.function-section>h3{
+font-size: 30px;
 
-   border: 2px solid white;
-   background-color: rgb(59, 57, 57);
 }
+.function-section>p{
+    margin: 20px 0;
+    font-size: 20px;
+    
+    }
 .function-title-bottom{
-    height: 100px;
+    
     width: 100%;
-   background-color: rgb(59, 57, 57);
-   margin: 50px 0; 
+
+   margin: 100px 0; 
 }
+.function-title-bottom>h3{
+    width: 70%;
+    font-size: 40px;
+    margin: 100px 0 30px 0;
+}
+
+
+
+
 /* INIZIO QUADRATI CON LOGO */
  .square-sections{
     display: flex;
  }
+ 
 .large-square{
     width: calc(100vw/3);
     height: calc(100vw/3);
     border: 2px solid white;
-    background-color: rgb(59, 57, 57);
+    background-color: #F5F5F5;
  }
  .mark-square{
     display: flex;
@@ -272,9 +314,41 @@ img{
  .small-square{
     height: 50%;
     width: 50%;
-    background-color: rgb(59, 57, 57);
+    background-color: #D2E9CD;
     border: 2px solid white; 
+    
+   
  }
+.logo-square{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.img-logo-square{
+    width: 50%;
+    filter: invert(100%);
+}
+.central-square-logo{
+    width: 50%;
+}
+.central-square{
+    padding: 50px;
+}
+.central-square>hr{
+    width: 100px;
+    margin: 50px 0;
+}
+.central-square>.autors{
+    margin: 50px 0;
+    
+}
+
+
+
  /* INIZIO INVITE BRAND  */
  .invite-brand{
     width: 100vw;
@@ -332,11 +406,26 @@ footer{
    
 }
 .bg-green{
-    background-color: green;
+    background-color: #A2D39B;
  
 }
-.bg-gray{
-    background-color: gray;
+.bg-darkred{
+    background-color: #D50020;
+}
+.bg-lightblue{
+    background-color: #0093CE;
+}
+.bg-bordeaux{
+    background-color: #62092B;
+}
+.bg-cyan{
+    background-color: #0093CE;
+}
+.bg-skyblue{
+    background-color: skyblue;
+}
+.bg-yellow{
+    background-color: #FFD830;
 }
 .green{
     color: green;
